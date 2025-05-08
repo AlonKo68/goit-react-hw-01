@@ -1,0 +1,22 @@
+.item_friends {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 85px;
+    padding: 10px 5px;
+}
+.avatar {}
+.username {
+    font-size: 22px;
+    font-weight: 500; 
+}
+.online {
+    color: green;
+}
+.offline {
+    color: red;
+}

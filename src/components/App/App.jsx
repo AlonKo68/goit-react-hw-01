@@ -21,7 +21,7 @@ export default function App() {
       stats={userData[0].stats}
       />
       {/* Завдання 2 - Список друзів */}
-      <FriendList  itemsFriend={friends}/>
+      <FriendList  itemsFriend={friends} />
 
       {/* Завдання 3 - Історія транзакцій*/}
       <TransactionHistory items={transactions} />

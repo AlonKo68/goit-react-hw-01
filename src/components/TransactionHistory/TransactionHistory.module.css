@@ -1,0 +1,20 @@
+.table {
+    border: 1px solid black;
+    width: 100%;
+    border-spacing: 0px;   
+}
+.thead {
+    background-color: #32393d;
+    color: white;
+    height: 35px;
+}
+.th {
+    border: 1px solid black;
+}
+.td {
+    border: 1px solid black;
+    padding-left: 50px;
+}
+.tr:nth-of-type(2n) {
+    background-color: #a7aaab;
+}
